@@ -1,4 +1,4 @@
-#Fundamental Kotlin Website
+# Fundamental Kotlin Website
 Fundamental Kotlin Website version 1.8
 
 ## Configuring project
