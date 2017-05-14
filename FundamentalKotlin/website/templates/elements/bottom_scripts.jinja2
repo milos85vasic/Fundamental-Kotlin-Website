@@ -1,0 +1,50 @@
+<script>
+    function checkScrollPosition() {
+      if($(window).scrollTop() > 50) {
+          $(".fixed-header").addClass("scroll");
+      } else {
+          $(".fixed-header").removeClass("scroll");
+      }
+    }
+
+    $(window).on("scroll", function() {
+        checkScrollPosition();
+    });
+
+    $(document).ready(function(){
+        $(".progress_bar img").fadeIn(2000, function(){
+            setJavascript();
+        });
+    });
+
+    function setJavascript(){
+        $('.fixed-header').singlePageNav({
+                offset: 59,
+                filter: ':not(.external)',
+                updateHash: true
+        });
+
+        checkScrollPosition();
+
+        $('.navbar-toggle').click(function(){
+                $('.main-menu').toggleClass('show');
+        });
+
+        $('.main-menu a').click(function(){
+                $('.main-menu').removeClass('show');
+        });
+
+        progress_bar = $(".progress_bar");
+        if(progress_bar !== undefined && progress_bar !== null){
+            setTimeout(function(){
+                progress_bar.fadeOut();
+            }, 3000);
+        }
+    }
+
+    function back_to_top() {
+            $("html, body").animate({
+                    scrollTop: 0
+            }, 600);
+    }
+</script>

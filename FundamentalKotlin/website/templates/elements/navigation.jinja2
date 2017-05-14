@@ -1,0 +1,32 @@
+<ul id="navigation" {% if mobile %}class="mobile"{% endif %}>
+    {% for page in configuration.home.pages -%}
+        {% if page.anchor %}
+            <li>
+                <a href="#{{ page.anchor }}" class="
+            {% if page.extra_classes %}
+                {% for extra in page.extra_classes -%}
+                    {{ extra }}
+                    {% if not loop.last %}
+                        {{ " " }}
+                    {% endif %}
+                {%- endfor %}
+            {% endif %}
+            ">{{ page.title }}</a>
+            </li>
+        {% endif %}
+        {% if page.href %}
+            <li>
+                <a href="{{ page.href }}" target="_blank" class="external
+                {% if page.extra_classes %}
+                    {% for extra in page.extra_classes -%}
+                        {{ extra }}
+                        {% if not loop.last %}
+                            {{ " " }}
+                        {% endif %}
+                    {%- endfor %}
+                {% endif %}
+                ">{{ page.title }}</a>
+            </li>
+        {% endif %}
+    {%- endfor %}
+</ul>

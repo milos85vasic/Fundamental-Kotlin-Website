@@ -1,0 +1,10 @@
+{% for page in configuration[page].pages -%}
+        <section class="col-md-12 content"
+            <div class="col-lg-6 col-md-6 content-item content-item-1 background">
+                {% include 'html/' + page.content + '/' + page.content + '.jinja2' %}
+                {% if mobile %}
+                    <a class="btn btn-big dark-blue-bordered-btn btn-buy-secondary-content mobile_close" href="javascript:window.close();">Close</a>
+                {% endif %}
+            </div>
+        </section>
+{%- endfor %}

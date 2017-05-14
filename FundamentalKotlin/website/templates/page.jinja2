@@ -1,0 +1,50 @@
+{% set static_url = configuration.shared.static %}
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    {% include 'elements/meta.jinja2' %}
+    <meta name="description" content="{{ configuration[page].description }}" />
+    <meta name="keywords" content="{{ configuration[page].keywords }}"/>
+    <meta name="author" content="{{ configuration.shared.author }}"/>
+    {% include 'elements/head_common.jinja2' %}
+    <title>
+        {{ configuration[page].title }}
+    </title>
+  </head>
+  <body>
+      <div class="fixed-header">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <h1 id="main_title" class="navbar-brand">
+                    {{ configuration[page].title }}
+                  </h1>
+              </div>
+              <nav class="main-menu">
+                <ul id="navigation">
+                    <li>
+                        <a href="javascript:window.close();">Close</a>
+                    </li>
+                </ul>
+              </nav>
+          </div>
+      </div>
+
+    <div class="separator">
+    </div>
+    <div class="wrapper container page_content_padding" id="pages" />
+        {% include 'elements/page_content.jinja2' %}
+    </div>
+
+    <div class="text-center footer" id="footer_container">
+        {% include 'elements/footer.jinja2' %}
+    </div>
+
+    {% include 'elements/bottom_scripts.jinja2' %}
+
+  </body>
+</html>

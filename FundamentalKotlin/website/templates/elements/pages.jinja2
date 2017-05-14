@@ -1,0 +1,72 @@
+{% set x = 0 %}
+{% for page in configuration.home.pages -%}
+    {% if page.content %}
+        {% if not loop.last %}
+            <section class="col-md-12 content"
+        {% else %}
+            <footer class="col-md-12 content"
+        {% endif %}
+
+
+        {% if page.anchor %}
+            id="{{ page.anchor }}"
+        {% endif %}
+        >
+
+        <div class="wrapper">
+
+        {% if not mobile %}
+            {% if x % 2 == 0 %}
+                <div class="col-lg-6 col-md-6 content-item
+                {% if x == (configuration.pages|length) - 1 %}
+                    last">
+                {% else %}
+                    ">
+                {% endif %}
+                <img src="{{ static_url }}images/{{ page.image }}" alt="{{ page.image_alt }}">
+            {% else %}
+                <div class="col-lg-6 col-md-6 col-md-push-6 content-item
+                {% if x == (configuration.pages|length) - 1 %}
+                     last">
+                {% else %}
+                    ">
+                {% endif %}
+                <img src="{{ static_url }}images/{{ page.image }}" alt="{{ page.image_alt }}" class="tm-image">
+            {% endif %}
+        {% endif %}
+
+        {% if page.secondary_content %}
+            <div class="scondary_content">
+            {% include 'html/' + page.secondary_content + '/' + page.secondary_content + '.jinja2' %}
+            </div>
+        {% endif %}
+
+        {% if not mobile %}
+            </div>
+        {% endif %}
+
+        {% if x % 2 == 0 %}
+            <div class="col-lg-6 col-md-6 content-item content-item-1 background
+        {% else %}
+            <div class="col-lg-6 col-md-6 col-md-pull-6 content-item background flexbox
+        {% endif %}
+
+        {% if not loop.last %}
+            last">
+        {% else %}
+            ">
+        {% endif %}
+
+        {% include 'html/' + page.content + '/' + page.content + '.jinja2' %}
+        </div>
+        </div>
+
+        {% if not loop.last %}
+            </section>
+        {% else %}
+            </footer>
+        {% endif %}
+
+        {% set x = x + 1 %}
+    {% endif %}
+{%- endfor %}

@@ -1,0 +1,83 @@
+{% set path_captcha = static_url + 'images/captcha/' %}
+<div id="newsletter_result">
+</div>
+<div id="newsletter">
+    <form class="newsletter-form" id="newsletter_form">
+        <!-- NAME -->
+        <input type="text" name="name" size="50" maxlength="120" class="form-control" placeholder="Your name">
+        <br/>
+        <!-- NAME -->
+
+        <!-- EMAIL -->
+        <input type="text" name="email" size="50" maxlength="120" class="form-control" placeholder="Your mail address">
+        <br/>
+        <!-- EMAIL -->
+
+        <!-- CAPTCHA -->
+        <input type="text" name="captcha" size="50" maxlength="120" class="form-control" placeholder="Please enter captcha letters you see below">
+        <br/>
+        <div class="captcha" id="captcha_letters">
+            <!-- CAPTCHA LETTERS -->
+        </div>
+        <!-- CAPTCHA -->
+        <br />
+        <a href="javascript:subscribe();" class="btn btn-big yellow-bordered-btn btn-buy" name="submit" title="Subscribe to our newsletter">
+          Subscribe now!
+        </a>
+    </form>
+</div>
+<script>
+    $.getJSON("/newsletter/subscribe", function(json){
+        html = setCaptchaLetters(json.captcha);
+        $("#captcha_letters").html(html);
+	});
+
+	function setCaptchaLetters(letters){
+        html = "";
+        for(index in letters) {
+            letter = letters[index];
+            html += "<img";
+            html += " src='{{ path_captcha }}" + letter + "'alt='Captcha letter.'";
+            html += " title='Please enter these letters into input field above so you can send your message.'";
+            html  += "/>";
+        }
+        return html;
+	}
+
+    function subscribe(){
+        $('#newsletter_result').html("<h3>Please wait until we subscribe you. Than you for your patience.<h3>");
+
+        name = $("[name='name']").val();
+        email = $("[name='email']").val();
+        captcha = $("[name='captcha']").val();
+
+        $.post(
+            "/newsletter/subscribe",
+            {name: name, email: email, captcha: captcha},
+            function(result){
+                html = setCaptchaLetters(result.captcha);
+                $("#captcha_letters").html(html);
+
+                html = "";
+                html += "<h3>" + result.message_title + "</h3>";
+                html += "<ul class='validation_error'>";
+                for(index in result.message) {
+                    message_warning = result.message[index];
+                    html += "<li>";
+                    html += message_warning;
+                    html += "</li>";
+                }
+                html += "</ul>";
+
+                $('#newsletter_result').html(html);
+                if(result.subscription_result){
+                    $('#newsletter').remove();
+                }
+            }
+        );
+    }
+
+    function sleep (time) {
+      return new Promise((resolve) => setTimeout(resolve, time));
+    }
+</script>

@@ -1,0 +1,50 @@
+{% set static_url = configuration.shared.static %}
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    {% include 'elements/meta.jinja2' %}
+    <meta name="description" content="{{ configuration.home.description }}" />
+    <meta name="keywords" content="{{ configuration.home.keywords }}"/>
+    <meta name="author" content="{{ configuration.shared.author }}"/>
+    {% include 'elements/head_common.jinja2' %}
+    <title>
+        {{ configuration.home.book_title }} by {{ configuration.home.book_author }}, {{ configuration.home.book_edition }}
+    </title>
+  </head>
+  <body>
+      <div class="progress_bar">
+        <img alt="Loading..." src="{{ static_url }}images/gears.gif"></img>
+      </div>
+
+      <div class="fixed-header">
+          <div class="container">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <h1 id="main_title" class="navbar-brand">
+                    {{ configuration.home.book_title }}
+                  </h1>
+              </div>
+              <nav class="main-menu">
+                {% include 'elements/navigation.jinja2' %}
+              </nav>
+          </div>
+      </div>
+
+    <div class="separator">
+    </div>
+    <div class="wrapper container" id="pages" />
+        {% include 'elements/pages.jinja2' %}
+    </div>
+
+    <div class="text-center footer" id="footer_container">
+        {% include 'elements/footer.jinja2' %}
+    </div>
+
+    {% include 'elements/bottom_scripts.jinja2' %}
+
+  </body>
+</html>

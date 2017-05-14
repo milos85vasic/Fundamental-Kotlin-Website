@@ -1,0 +1,21 @@
+1.5
+---
+
+- Increased version
+- Updated CHANGES.txt
+- Add iBooks link
+- Added ISBN
+
+1.6
+---
+
+- Added more stores
+
+1.7
+---
+- Price value corrected from 25 to 10
+
+1.8
+---
+- Small code updates
+- Migration to Github repository.

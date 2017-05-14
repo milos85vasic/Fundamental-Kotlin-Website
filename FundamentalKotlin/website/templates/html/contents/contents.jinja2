@@ -1,0 +1,46 @@
+{% set sample_chapters_url = "/api/redirect/sample/chapters/" %}
+<h2 class="section-title">Table of Contents</h2>
+<p>
+	<i>NOTE: Sample chapters are colored in <span class="yellow"><strong>yellow</strong></span>.</i>
+</p>
+<p class="section-text">
+	<p id="toc">
+	</p>
+</p>
+<script>
+	$.getJSON("/json/toc", function(tocJson){
+	    json = tocJson.toc.ncx.navMap
+		appendChildren(json.navPoint, $("#toc"), true, 1.3);
+		appendSampleChapters(tocJson.sample_chapters);
+	});
+
+	function appendChildren(navPoint, parent, isRoot, fontSize) {
+		ulHtml = '<ul></ul>';
+		$(parent).append(ulHtml);
+		$.each(navPoint, function(i, item) {
+			if(item.navLabel !== null && item.navLabel !== undefined){
+				html = '<li><a';
+				html += ' style="font-size: ' + fontSize + 'em;">';
+				html += item.navLabel.text;
+				html += '</a></li>';
+				$(parent).children().last().append(html);
+			}
+			if(item.navPoint !== null && item.navPoint !== undefined){
+				appendChildren(item.navPoint, $(parent).children().last().children().last(), false, fontSize);
+			}
+		});
+	}
+
+	function appendSampleChapters(json){
+		for(index in json) {
+             sample_chapter = json[index];
+             $('a').filter(function(index) { return $(this).text() === sample_chapter.title; }).each(function(){
+                 $(this).attr("href", "{{ sample_chapters_url }}" + sample_chapter.url);
+                 $(this).attr("target", "_blank");
+                 $(this).attr("class", "sample_chapter");
+             });
+        }
+	}
+
+</script>
+

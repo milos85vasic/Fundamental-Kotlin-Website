@@ -1,0 +1,61 @@
+<h2 class="dark-blue-text">ISBN: <span>{{ configuration.shared.isbn }}</span></h2>
+<h2 class="dark-blue-text">
+  Available in formats:
+</h2>
+<p>
+  <ul>
+    <li>
+      - Amazon Kindle
+    </li>
+    <li>
+      - EPUB
+    </li>
+    <li>
+      - Mobi
+    </li>
+    <li>
+      - Android APK
+    </li>
+  </ul>
+</p>
+<h2 class="dark-blue-text">
+  Available in stores:
+</h2>
+<p>
+    <ul>
+        <li>
+            - Amazon Kindle
+        </li>
+        <li>
+            - Apple iBooks
+        </li>
+        <li>
+            - Nook
+        </li>
+        <li>
+            - Kobo
+        </li>
+        <li>
+            - Scribd
+        </li>
+        <li>
+            - Lulu.com
+        </li>
+        <li>
+            - Smashwords
+        </li>
+        <li>
+            - Inktera
+        </li>
+    </ul>
+    <a class="btn btn-big dark-blue-bordered-btn btn-buy-secondary-content" title="Buy Ebook">Buy</a>
+    <script>
+        $("a.btn-buy-secondary-content").click(function(event){
+          $('html, body').animate({
+            scrollTop: $("section#buy").offset().top - 35
+          }, 800, function(){
+            // window.location.hash = hash;
+          });
+        });
+    </script>
+</p>

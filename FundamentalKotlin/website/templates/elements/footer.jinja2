@@ -1,0 +1,16 @@
+<div class="container footer_menu">
+    <ul id="navigation" class="list-inline">
+        |{% for page in configuration.shared.footer_menu -%}
+            <li>
+                <a href="{{ page.href }}" target="_blank">{{ page.title }}</a>
+            </li> |
+        {%- endfor %}
+    </ul>
+</div>
+<div class="container back_to_top"><a href="javascript: back_to_top();" title="Back to Top">^ Back to Top ^</a></div>
+<div class="container" id="footer">
+    Copyright @ {{ configuration.shared.date }} <a href="{{ configuration.shared.author_website }}" target="_blank" title="{{ configuration.home.book_author }}" >{{ configuration.home.book_author }}</a>
+</div>
+<div class="container" id="website_version">
+    Website version: {{ configuration.shared.website_version }}
+</div>
