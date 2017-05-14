@@ -9,7 +9,7 @@ from pyramid.view import view_config
 from validate_email import validate_email
 from configuration import *
 from pyga.requests import Page, Session, Visitor
-from website.configuration_parameters import *
+from configuration_parameters import *
 
 required = "~ Required !"
 visitor = Visitor()
