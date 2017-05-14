@@ -17,5 +17,6 @@
 
 1.8
 ---
-- Small code updates
-- Migration to Github repository.
+- Misc smaller updates
+- Migration to Github repository
+- Version number has URL to CHANGES.txt
