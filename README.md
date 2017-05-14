@@ -14,6 +14,6 @@ tracker = Tracker('UA-XXXXXXX-X', 'example.com')
 ```
 
 ## Running project example
-- cd <directory containing website>
+- cd 'directory containing website'
 - sudo pip install -e .
 - pserve development.ini
