@@ -116,3 +116,5 @@ ENV/
 .ropeproject
 FundamentalKotlin/data/
 FundamentalKotlin/website/configuration_parameteres.py
+
+configuration_parameters.py
