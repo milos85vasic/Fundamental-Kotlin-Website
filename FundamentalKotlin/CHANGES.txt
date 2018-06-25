@@ -20,3 +20,7 @@
 - Misc smaller updates
 - Migration to Github repository
 - Version number has URL to CHANGES.txt
+
+1.9
+---
+- Removed contact page

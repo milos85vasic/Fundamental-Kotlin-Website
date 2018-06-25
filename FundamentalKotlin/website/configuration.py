@@ -20,7 +20,7 @@ def get_toc():
 
 configuration = {
     "shared": {
-        "website_version": "1.8",
+        "website_version": "1.9",
         "author": u'Miloš Vasić',
         "date": get_date(),
         "static": "http://static.fundamental-kotlin.com/",
@@ -91,13 +91,13 @@ configuration = {
                 "image_alt": "Shopping cart",
                 "extra_classes": ["buy_highlight"]
             },
-            {
-                "title": "Contact",
-                "anchor": "contact",
-                "content": "contact",
-                "image": "Contact.png",
-                "image_alt": "Fundamental Kotlin - 1st Edition"
-            },
+            # {
+            #     "title": "Contact",
+            #     "anchor": "contact",
+            #     "content": "contact",
+            #     "image": "Contact.png",
+            #     "image_alt": "Fundamental Kotlin - 1st Edition"
+            # },
             {
                 "title": "Newsletter",
                 "href": "/newsletter"
