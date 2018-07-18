@@ -20,7 +20,7 @@ def get_toc():
 
 configuration = {
     "shared": {
-        "website_version": "1.9",
+        "website_version": "2.0",
         "author": u'Miloš Vasić',
         "date": get_date(),
         "static": "http://static.fundamental-kotlin.com/",
