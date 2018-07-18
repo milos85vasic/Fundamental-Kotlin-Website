@@ -80,7 +80,7 @@ configuration = {
                 "title": "Code Examples",
                 "anchor": "code",
                 "content": "code",
-                "image": "CodeExamples.png",
+                "image": "SecEd_CodeExamples.png",
                 "image_alt": "Code Examples"
             },
             {
