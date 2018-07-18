@@ -1,86 +1,9 @@
 {% set path_captcha = static_url + 'images/captcha/' %}
-<h2 class="section-title">Contact Us</h2>
-<div id="email_result">
-</div>
+<h2 class="section-title">Contact Author</h2>
 <div id="contact">
     <form class="contact-form" id="contact_form">
-        <!-- NAME -->
-        <input type="text" name="name" size="50" maxlength="120" class="form-control" placeholder="Your name">
-        <br/>
-        <!-- NAME -->
-
-        <!-- EMAIL -->
-        <input type="text" name="email" size="50" maxlength="120" class="form-control" placeholder="Your mail address">
-        <br/>
-        <!-- EMAIL -->
-
-        <!-- MESSAGE -->
-        <textarea id="message" name="message" rows="20" class="form-control" placeholder="Your message..."></textarea>
-        <br/>
-        <!-- MESSAGE -->
-
-        <!-- CAPTCHA -->
-        <input type="text" name="captcha" size="50" maxlength="120" class="form-control" placeholder="Please enter captcha letters you see below">
-        <br/>
-        <div class="captcha" id="captcha_letters">
-            <!-- CAPTCHA LETTERS -->
-        </div>
-        <!-- CAPTCHA -->
-        <br />
-        <a href="javascript:contactUs();" class="btn btn-big yellow-bordered-btn btn-buy" name="submit" title="Send message to us.">
-          Send message
+        <a href="mailto:office@milosvasic.net" class="btn btn-big yellow-bordered-btn btn-buy" name="submit" title="Send message to us.">
+          Email author
         </a>
     </form>
 </div>
-<script>
-    $.getJSON("/contact", function(json){
-        html = setCaptchaLetters(json.captcha);
-        $("#captcha_letters").html(html);
-	});
-
-	function setCaptchaLetters(letters){
-        html = "";
-        for(index in letters) {
-            letter = letters[index];
-            html += "<img";
-            html += " src='{{ path_captcha }}" + letter + "'alt='Captcha letter.'";
-            html += " title='Please enter these letters into input field above so you can send your message.'";
-            html  += "/>";
-        }
-        return html;
-	}
-
-    function contactUs(){
-        name = $("[name='name']").val();
-        email = $("[name='email']").val();
-        message = $("[name='message']").val();
-        captcha = $("[name='captcha']").val();
-
-        $.post(
-            "/contact",
-            {name: name, email: email, message: message, captcha: captcha},
-            function(result){
-                html = setCaptchaLetters(result.captcha);
-                $("#captcha_letters").html(html);
-
-                html = "";
-                html += "<h3>" + result.message_title + "</h3>";
-                html += "<ul class='validation_error'>";
-                for(index in result.message) {
-                    message_warning = result.message[index];
-                    html += "<li>";
-                    html += message_warning;
-                    html += "</li>";
-                }
-                html += "</ul>";
-
-                $('#email_result').html(html);
-                $('html, body').animate({
-                    scrollTop: $("section#contact").offset().top - 35
-                }, 800, function(){
-                    // window.location.hash = hash;
-                });
-            }
-        );
-    }
-</script>

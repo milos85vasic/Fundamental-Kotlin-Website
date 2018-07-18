@@ -91,17 +91,17 @@ configuration = {
                 "image_alt": "Shopping cart",
                 "extra_classes": ["buy_highlight"]
             },
-            # {
-            #     "title": "Contact",
-            #     "anchor": "contact",
-            #     "content": "contact",
-            #     "image": "Contact.png",
-            #     "image_alt": "Fundamental Kotlin - 1st Edition"
-            # },
             {
-                "title": "Newsletter",
-                "href": "/newsletter"
+                "title": "Contact",
+                "anchor": "contact",
+                "content": "contact",
+                "image": "Contact.png",
+                "image_alt": "Fundamental Kotlin - 1st Edition"
             },
+            # {
+            #     "title": "Newsletter",
+            #     "href": "/newsletter"
+            # },
             {
                 "title": "About the Author",
                 "content": "author",
