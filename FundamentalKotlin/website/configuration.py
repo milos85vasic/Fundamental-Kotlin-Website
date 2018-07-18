@@ -25,7 +25,7 @@ configuration = {
         "date": get_date(),
         "static": "http://static.fundamental-kotlin.com/",
         "author_website": "/api/redirect/author",
-        "isbn": "9788692030703",
+        "isbn": "9788692030710",
         "footer_menu": [
             {
                 "title": "Terms and Conditions",
