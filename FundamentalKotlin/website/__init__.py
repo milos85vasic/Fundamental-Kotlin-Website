@@ -11,6 +11,7 @@ def main(global_config, **settings):
     config.include('pyramid_jinja2')
     config.include('pyramid_useragent')
     config.add_static_view('assets', 'assets', cache_max_age=3600)
+    config.add_route('css_main', '/css/main.css')
     config.add_route('home', '/')
     config.add_route('contact', '/contact')
     config.add_route('json_toc', '/json/toc')
