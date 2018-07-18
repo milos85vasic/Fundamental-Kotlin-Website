@@ -24,3 +24,7 @@
 1.9
 ---
 - Removed contact page
+
+2.0
+---
+- Second edition homepage

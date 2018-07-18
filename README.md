@@ -1,5 +1,5 @@
 # Fundamental Kotlin Website
-Fundamental Kotlin Website version 1.8
+Fundamental Kotlin Website
 
 ## Configuring project
 To run website it is needed to create configuration_parameters.py file in website directory.
