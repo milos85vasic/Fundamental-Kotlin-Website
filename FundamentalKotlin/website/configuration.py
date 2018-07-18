@@ -73,7 +73,7 @@ configuration = {
                 "title": "Table of Contents",
                 "anchor": "contents",
                 "content": "contents",
-                "image": "ProjectStructure.png",
+                "image": "SecEd_ProjectStructure.png",
                 "image_alt": "Project structure"
             },
             {
