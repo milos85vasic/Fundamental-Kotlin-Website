@@ -159,42 +159,26 @@ configuration = {
 sample_chapters = [
     {
         "title": "About Fundamental Series",
-        "url": "about_fundamental_series.pdf"
+        "url": "sec_ed_about_fundamental_series.pdf"
     },
     {
         "title": "What is Kotlin?",
-        "url": "what_is_kotlin.pdf"
+        "url": "sec_ed_what_is_kotlin.pdf"
     },
     {
         "title": "Basic characteristics",
-        "url": "basic_characteristics.pdf"
+        "url": "sec_ed_basic_characteristics.pdf"
     },
     {
-        "title": "Where is it used?",
-        "url": "where_is_it_used.pdf"
+        "title": "Hello from Kotlin!",
+        "url": "sec_ed_hello_from_kotlin.pdf"
     },
     {
-        "title": "How to start?",
-        "url": "how_to_start.pdf"
-    },
-    {
-        "title": "Control flow",
-        "url": "control_flow.pdf"
-    },
-    {
-        "title": "Lazy initialization",
-        "url": "lazy_initialization.pdf"
-    },
-    {
-        "title": "When",
-        "url": "when.pdf"
-    },
-    {
-        "title": "Classes",
-        "url": "classes.pdf"
+        "title": "Inheritance",
+        "url": "sec_ed_inheritance.pdf"
     },
     {
         "title": "Interfaces",
-        "url": "interfaces.pdf"
+        "url": "sec_ed_interfaces.pdf"
     }
 ]

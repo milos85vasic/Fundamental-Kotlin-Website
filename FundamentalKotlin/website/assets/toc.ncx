@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
   <head>
-    <meta content="403e55a4-144f-489c-a22d-1a8b1d3deb0f" name="dtb:uid"/>
+    <meta content="8e7d7461-c52d-4527-805a-45d7d854278b" name="dtb:uid"/>
     <meta content="4" name="dtb:depth"/>
-    <meta content="calibre (2.65.1)" name="dtb:generator"/>
+    <meta content="calibre (3.27.1)" name="dtb:generator"/>
     <meta content="0" name="dtb:totalPageCount"/>
     <meta content="0" name="dtb:maxPageNumber"/>
   </head>
   <docTitle>
-    <text>Fundamental Kotlin</text>
+    <text>Fundamental Kotlin - Second Edition</text>
   </docTitle>
   <navMap>
     <navPoint class="chapter" id="num_1" playOrder="1">
@@ -21,685 +21,817 @@
       <navLabel>
         <text>About me</text>
       </navLabel>
-      <content src="index_split_003.html"/>
+      <content src="index_split_004.html"/>
     </navPoint>
     <navPoint class="chapter" id="num_3" playOrder="3">
       <navLabel>
         <text>Preface</text>
       </navLabel>
-      <content src="index_split_004.html"/>
+      <content src="index_split_005.html"/>
       <navPoint class="chapter" id="num_4" playOrder="4">
         <navLabel>
           <text>What is this book about?</text>
         </navLabel>
-        <content src="index_split_005.html"/>
+        <content src="index_split_006.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_5" playOrder="5">
         <navLabel>
           <text>Who is this book for?</text>
         </navLabel>
-        <content src="index_split_006.html"/>
+        <content src="index_split_007.html"/>
       </navPoint>
     </navPoint>
     <navPoint class="chapter" id="num_6" playOrder="6">
       <navLabel>
         <text>What is Kotlin?</text>
       </navLabel>
-      <content src="index_split_007.html"/>
+      <content src="index_split_008.html"/>
       <navPoint class="chapter" id="num_7" playOrder="7">
         <navLabel>
           <text>Basic characteristics</text>
         </navLabel>
-        <content src="index_split_008.html"/>
+        <content src="index_split_009.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_8" playOrder="8">
         <navLabel>
           <text>Where is it used?</text>
         </navLabel>
-        <content src="index_split_009.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_9" playOrder="9">
-        <navLabel>
-          <text>Kotlin tools</text>
-        </navLabel>
         <content src="index_split_010.html"/>
+        <navPoint class="chapter" id="num_9" playOrder="9">
+          <navLabel>
+            <text>Server-side development</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_2"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_10" playOrder="10">
+          <navLabel>
+            <text>Android mobile development</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_3"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_11" playOrder="11">
+          <navLabel>
+            <text>JavaScript development</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_4"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_12" playOrder="12">
+          <navLabel>
+            <text>Some Kotlin project examples</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_5"/>
+        </navPoint>
       </navPoint>
     </navPoint>
-    <navPoint class="chapter" id="num_10" playOrder="10">
+    <navPoint class="chapter" id="num_13" playOrder="13">
+      <navLabel>
+        <text>Kotlin tools</text>
+      </navLabel>
+      <content src="index_split_011.html"/>
+      <navPoint class="chapter" id="num_14" playOrder="14">
+        <navLabel>
+          <text>Kotlin Compiler</text>
+        </navLabel>
+        <content src="index_split_012.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="15">
+        <navLabel>
+          <text>Kotlin to JavaScript</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+        <navPoint class="chapter" id="num_16" playOrder="16">
+          <navLabel>
+            <text>Using library</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_8"/>
+        </navPoint>
+      </navPoint>
+      <navPoint class="chapter" id="num_17" playOrder="17">
+        <navLabel>
+          <text>Kotlin to Native</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_18" playOrder="18">
+        <navLabel>
+          <text>Supported build tools</text>
+        </navLabel>
+        <content src="index_split_015.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_19" playOrder="19">
       <navLabel>
         <text>How to start?</text>
       </navLabel>
-      <content src="index_split_011.html"/>
+      <content src="index_split_016.html"/>
     </navPoint>
-    <navPoint class="chapter" id="num_11" playOrder="11">
+    <navPoint class="chapter" id="num_20" playOrder="20">
+      <navLabel>
+        <text>Creating a project</text>
+      </navLabel>
+      <content src="index_split_017.html"/>
+      <navPoint class="chapter" id="num_21" playOrder="21">
+        <navLabel>
+          <text>Quick start from IntelliJ Idea</text>
+        </navLabel>
+        <content src="index_split_018.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_22" playOrder="22">
+        <navLabel>
+          <text>Creating Kotlin Gradle project</text>
+        </navLabel>
+        <content src="index_split_019.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_23" playOrder="23">
       <navLabel>
         <text>Basics</text>
       </navLabel>
-      <content src="index_split_012.html"/>
-      <navPoint class="chapter" id="num_12" playOrder="12">
+      <content src="index_split_020.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_24" playOrder="24">
+      <navLabel>
+        <text>Hello from Kotlin!</text>
+      </navLabel>
+      <content src="index_split_021.html"/>
+      <navPoint class="chapter" id="num_25" playOrder="25">
         <navLabel>
-          <text>Basic Syntax</text>
+          <text>From Java to Kotlin</text>
         </navLabel>
-        <content src="index_split_013.html"/>
-        <navPoint class="chapter" id="num_13" playOrder="13">
-          <navLabel>
-            <text>Packages</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858194"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_14" playOrder="14">
-          <navLabel>
-            <text>Defining functions</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858195"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_15" playOrder="15">
-          <navLabel>
-            <text>Local variables</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858196"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_16" playOrder="16">
-          <navLabel>
-            <text>Comments</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858197"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_17" playOrder="17">
-          <navLabel>
-            <text>String templates</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858198"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_18" playOrder="18">
-          <navLabel>
-            <text>Conditional expressions</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858199"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_19" playOrder="19">
-          <navLabel>
-            <text>Null</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858200"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_20" playOrder="20">
-          <navLabel>
-            <text>Type checks and automatic casts</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858201"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_21" playOrder="21">
-          <navLabel>
-            <text>For loop</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858202"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_22" playOrder="22">
-          <navLabel>
-            <text>While loop</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858203"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_23" playOrder="23">
-          <navLabel>
-            <text>When expression</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858204"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_24" playOrder="24">
-          <navLabel>
-            <text>Ranges</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858205"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_25" playOrder="25">
-          <navLabel>
-            <text>Collections</text>
-          </navLabel>
-          <content src="index_split_013.html#id_Toc326858206"/>
-        </navPoint>
+        <content src="index_split_022.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_26" playOrder="26">
         <navLabel>
-          <text>Idioms</text>
+          <text>Basic Syntax</text>
         </navLabel>
-        <content src="index_split_014.html"/>
+        <content src="index_split_023.html"/>
         <navPoint class="chapter" id="num_27" playOrder="27">
           <navLabel>
-            <text>Data classes</text>
+            <text>Packages</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858208"/>
+          <content src="index_split_023.html#id_Toc326858194"/>
         </navPoint>
         <navPoint class="chapter" id="num_28" playOrder="28">
           <navLabel>
-            <text>Default values for function parameters</text>
+            <text>Defining functions</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858209"/>
+          <content src="index_split_023.html#id_Toc326858195"/>
         </navPoint>
         <navPoint class="chapter" id="num_29" playOrder="29">
           <navLabel>
-            <text>Traversing a map</text>
+            <text>Local values</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858210"/>
+          <content src="index_split_023.html#id_Toc326858196"/>
         </navPoint>
         <navPoint class="chapter" id="num_30" playOrder="30">
           <navLabel>
-            <text>Read-only collections</text>
+            <text>Comments</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858211"/>
+          <content src="index_split_023.html#id_Toc326858197"/>
         </navPoint>
         <navPoint class="chapter" id="num_31" playOrder="31">
           <navLabel>
-            <text>Lazy initialization</text>
+            <text>String templates</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858212"/>
+          <content src="index_split_023.html#id_Toc326858198"/>
         </navPoint>
         <navPoint class="chapter" id="num_32" playOrder="32">
           <navLabel>
-            <text>Extending functionalities</text>
+            <text>Conditional expressions</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858213"/>
+          <content src="index_split_023.html#id_Toc326858199"/>
         </navPoint>
         <navPoint class="chapter" id="num_33" playOrder="33">
           <navLabel>
-            <text>If not null shorthands</text>
+            <text>Working with nulls</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858214"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_34" playOrder="34">
-          <navLabel>
-            <text>Return on when statement</text>
-          </navLabel>
-          <content src="index_split_014.html#id_Toc326858215"/>
+          <content src="index_split_023.html#toc_id_17"/>
         </navPoint>
         <navPoint class="chapter" id="num_35" playOrder="35">
           <navLabel>
-            <text>Try / Catch</text>
+            <text>Type checks and smart casts</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858216"/>
+          <content src="index_split_023.html#id_Toc326858201"/>
         </navPoint>
         <navPoint class="chapter" id="num_36" playOrder="36">
           <navLabel>
-            <text>If expression</text>
+            <text>For iteration</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858217"/>
+          <content src="index_split_023.html#id_Toc326858202"/>
         </navPoint>
         <navPoint class="chapter" id="num_37" playOrder="37">
           <navLabel>
-            <text>Single-expression functions</text>
+            <text>While loop</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858218"/>
+          <content src="index_split_023.html#id_Toc326858203"/>
         </navPoint>
         <navPoint class="chapter" id="num_38" playOrder="38">
           <navLabel>
-            <text>Calling methods on an object instance using 'with'</text>
+            <text>When expression</text>
           </navLabel>
-          <content src="index_split_014.html#id_Toc326858219"/>
+          <content src="index_split_023.html#id_Toc326858204"/>
         </navPoint>
-      </navPoint>
-      <navPoint class="chapter" id="num_39" playOrder="39">
-        <navLabel>
-          <text>Basic types</text>
-        </navLabel>
-        <content src="index_split_015.html"/>
+        <navPoint class="chapter" id="num_39" playOrder="39">
+          <navLabel>
+            <text>Ranges</text>
+          </navLabel>
+          <content src="index_split_023.html#id_Toc326858205"/>
+        </navPoint>
         <navPoint class="chapter" id="num_40" playOrder="40">
           <navLabel>
-            <text>Numbers in Kotlin</text>
+            <text>Collections</text>
           </navLabel>
-          <content src="index_split_015.html#toc_id_2"/>
+          <content src="index_split_023.html#id_Toc326858206"/>
         </navPoint>
         <navPoint class="chapter" id="num_41" playOrder="41">
           <navLabel>
-            <text>Characters in Kotlin</text>
+            <text>Mutable collections</text>
           </navLabel>
-          <content src="index_split_015.html#toc_id_3"/>
+          <content src="index_split_023.html#toc_id_19"/>
         </navPoint>
         <navPoint class="chapter" id="num_42" playOrder="42">
           <navLabel>
-            <text>Booleans in Kotlin</text>
+            <text>Accessing members</text>
           </navLabel>
-          <content src="index_split_015.html#toc_id_4"/>
+          <content src="index_split_023.html#toc_id_20"/>
         </navPoint>
         <navPoint class="chapter" id="num_43" playOrder="43">
           <navLabel>
-            <text>Arrays in Kotlin</text>
+            <text>Iterating through collections</text>
           </navLabel>
-          <content src="index_split_015.html#toc_id_5"/>
+          <content src="index_split_023.html#toc_id_21"/>
         </navPoint>
         <navPoint class="chapter" id="num_44" playOrder="44">
           <navLabel>
-            <text>Strings in Kotlin</text>
+            <text>Filter map</text>
           </navLabel>
-          <content src="index_split_015.html#toc_id_6"/>
+          <content src="index_split_023.html#toc_id_22"/>
         </navPoint>
-      </navPoint>
-      <navPoint class="chapter" id="num_45" playOrder="45">
-        <navLabel>
-          <text>Control flow</text>
-        </navLabel>
-        <content src="index_split_016.html"/>
+        <navPoint class="chapter" id="num_45" playOrder="45">
+          <navLabel>
+            <text>Predicates</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_23"/>
+        </navPoint>
         <navPoint class="chapter" id="num_46" playOrder="46">
           <navLabel>
-            <text>If expression</text>
+            <text>Flat Map</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_8"/>
+          <content src="index_split_023.html#toc_id_24"/>
         </navPoint>
         <navPoint class="chapter" id="num_47" playOrder="47">
           <navLabel>
-            <text>When</text>
+            <text>Max and min</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_9"/>
+          <content src="index_split_023.html#toc_id_25"/>
         </navPoint>
         <navPoint class="chapter" id="num_48" playOrder="48">
           <navLabel>
-            <text>For</text>
+            <text>Sorting</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_10"/>
+          <content src="index_split_023.html#toc_id_26"/>
         </navPoint>
         <navPoint class="chapter" id="num_49" playOrder="49">
           <navLabel>
-            <text>While and Do..While</text>
+            <text>Sum</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_11"/>
+          <content src="index_split_023.html#toc_id_27"/>
         </navPoint>
         <navPoint class="chapter" id="num_50" playOrder="50">
           <navLabel>
-            <text>Jump operators</text>
+            <text>Group by</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_12"/>
+          <content src="index_split_023.html#toc_id_28"/>
         </navPoint>
         <navPoint class="chapter" id="num_51" playOrder="51">
           <navLabel>
-            <text>Jump operator labels</text>
+            <text>Partition</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_13"/>
+          <content src="index_split_023.html#toc_id_29"/>
         </navPoint>
         <navPoint class="chapter" id="num_52" playOrder="52">
           <navLabel>
-            <text>Return with labels</text>
+            <text>Fold</text>
           </navLabel>
-          <content src="index_split_016.html#toc_id_14"/>
+          <content src="index_split_023.html#toc_id_30"/>
         </navPoint>
       </navPoint>
-    </navPoint>
-    <navPoint class="chapter" id="num_53" playOrder="53">
-      <navLabel>
-        <text>Working with objects</text>
-      </navLabel>
-      <content src="index_split_017.html"/>
-      <navPoint class="chapter" id="num_54" playOrder="54">
+      <navPoint class="chapter" id="num_53" playOrder="53">
         <navLabel>
-          <text>Classes</text>
+          <text>Idioms</text>
         </navLabel>
-        <content src="index_split_018.html"/>
+        <content src="index_split_024.html"/>
+        <navPoint class="chapter" id="num_54" playOrder="54">
+          <navLabel>
+            <text>Data classes</text>
+          </navLabel>
+          <content src="index_split_024.html#id_Toc326858208"/>
+        </navPoint>
         <navPoint class="chapter" id="num_55" playOrder="55">
           <navLabel>
-            <text>Constructors</text>
+            <text>Default arguments</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_17"/>
+          <content src="index_split_024.html#id_Toc326858209"/>
         </navPoint>
         <navPoint class="chapter" id="num_56" playOrder="56">
           <navLabel>
-            <text>Secondary constructors</text>
+            <text>Traversing a map</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_18"/>
+          <content src="index_split_024.html#id_Toc326858210"/>
         </navPoint>
         <navPoint class="chapter" id="num_57" playOrder="57">
           <navLabel>
-            <text>Members</text>
+            <text>Lazy initialization</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_19"/>
+          <content src="index_split_024.html#id_Toc326858212"/>
         </navPoint>
         <navPoint class="chapter" id="num_58" playOrder="58">
           <navLabel>
-            <text>Inheritance</text>
+            <text>Extending functionalities</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_20"/>
+          <content src="index_split_024.html#id_Toc326858213"/>
         </navPoint>
         <navPoint class="chapter" id="num_59" playOrder="59">
           <navLabel>
-            <text>Overriding</text>
+            <text>If not null shorthands</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_21"/>
+          <content src="index_split_024.html#id_Toc326858214"/>
         </navPoint>
         <navPoint class="chapter" id="num_60" playOrder="60">
           <navLabel>
-            <text>Abstraction</text>
+            <text>Try / Catch</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_22"/>
+          <content src="index_split_024.html#id_Toc326858216"/>
         </navPoint>
         <navPoint class="chapter" id="num_61" playOrder="61">
           <navLabel>
-            <text>Class companion object</text>
+            <text>If expression</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_23"/>
+          <content src="index_split_024.html#id_Toc326858217"/>
         </navPoint>
         <navPoint class="chapter" id="num_62" playOrder="62">
           <navLabel>
-            <text>Sealed classes</text>
+            <text>Single-expression functions</text>
           </navLabel>
-          <content src="index_split_018.html#toc_id_24"/>
+          <content src="index_split_024.html#id_Toc326858218"/>
         </navPoint>
-      </navPoint>
-      <navPoint class="chapter" id="num_63" playOrder="63">
-        <navLabel>
-          <text>Class properties</text>
-        </navLabel>
-        <content src="index_split_019.html"/>
-        <navPoint class="chapter" id="num_64" playOrder="64">
+        <navPoint class="chapter" id="num_63" playOrder="63">
           <navLabel>
-            <text>Properties with late initialization</text>
+            <text>Calling methods on an object instance using 'with'</text>
           </navLabel>
-          <content src="index_split_019.html#toc_id_26"/>
+          <content src="index_split_024.html#id_Toc326858219"/>
         </navPoint>
       </navPoint>
-      <navPoint class="chapter" id="num_65" playOrder="65">
+      <navPoint class="chapter" id="num_64" playOrder="64">
         <navLabel>
-          <text>Interfaces</text>
+          <text>Basic types</text>
         </navLabel>
-        <content src="index_split_020.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_66" playOrder="66">
-        <navLabel>
-          <text>Visibility modifiers</text>
-        </navLabel>
-        <content src="index_split_021.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_67" playOrder="67">
-        <navLabel>
-          <text>Extensions</text>
-        </navLabel>
-        <content src="index_split_022.html"/>
+        <content src="index_split_025.html"/>
+        <navPoint class="chapter" id="num_65" playOrder="65">
+          <navLabel>
+            <text>Numbers in Kotlin</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_31"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_66" playOrder="66">
+          <navLabel>
+            <text>Characters in Kotlin</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_32"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_67" playOrder="67">
+          <navLabel>
+            <text>Booleans in Kotlin</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_33"/>
+        </navPoint>
         <navPoint class="chapter" id="num_68" playOrder="68">
           <navLabel>
-            <text>Extending class properties</text>
+            <text>Arrays in Kotlin</text>
           </navLabel>
-          <content src="index_split_022.html#toc_id_30"/>
+          <content src="index_split_025.html#toc_id_34"/>
         </navPoint>
         <navPoint class="chapter" id="num_69" playOrder="69">
           <navLabel>
-            <text>Extending companion object</text>
+            <text>Strings in Kotlin</text>
           </navLabel>
-          <content src="index_split_022.html#toc_id_31"/>
+          <content src="index_split_025.html#toc_id_35"/>
         </navPoint>
       </navPoint>
       <navPoint class="chapter" id="num_70" playOrder="70">
         <navLabel>
-          <text>Data classes</text>
-        </navLabel>
-        <content src="index_split_023.html"/>
-        <navPoint class="chapter" id="num_71" playOrder="71">
-          <navLabel>
-            <text>Copying data classes</text>
-          </navLabel>
-          <content src="index_split_023.html#toc_id_33"/>
-        </navPoint>
-      </navPoint>
-      <navPoint class="chapter" id="num_72" playOrder="72">
-        <navLabel>
-          <text>Generics</text>
-        </navLabel>
-        <content src="index_split_024.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_73" playOrder="73">
-        <navLabel>
-          <text>Generic functions</text>
-        </navLabel>
-        <content src="index_split_025.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_74" playOrder="74">
-        <navLabel>
-          <text>Java's 'EXTENDS'</text>
+          <text>Control flow</text>
         </navLabel>
         <content src="index_split_026.html"/>
+        <navPoint class="chapter" id="num_71" playOrder="71">
+          <navLabel>
+            <text>If expression</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_37"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_72" playOrder="72">
+          <navLabel>
+            <text>For</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_38"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_73" playOrder="73">
+          <navLabel>
+            <text>While and Do..While</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_39"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_74" playOrder="74">
+          <navLabel>
+            <text>Jump operators</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_40"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_75" playOrder="75">
+          <navLabel>
+            <text>Jump operator labels</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_41"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_76" playOrder="76">
+          <navLabel>
+            <text>Return with labels</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_42"/>
+        </navPoint>
       </navPoint>
-      <navPoint class="chapter" id="num_75" playOrder="75">
-        <navLabel>
-          <text>Nested classes</text>
-        </navLabel>
-        <content src="index_split_027.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_76" playOrder="76">
-        <navLabel>
-          <text>Inner classes</text>
-        </navLabel>
-        <content src="index_split_028.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_77" playOrder="77">
-        <navLabel>
-          <text>Enumeration</text>
-        </navLabel>
-        <content src="index_split_029.html"/>
-      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_77" playOrder="77">
+      <navLabel>
+        <text>Working with objects</text>
+      </navLabel>
+      <content src="index_split_027.html"/>
       <navPoint class="chapter" id="num_78" playOrder="78">
         <navLabel>
-          <text>Kotlin Object</text>
+          <text>Classes</text>
+        </navLabel>
+        <content src="index_split_028.html"/>
+        <navPoint class="chapter" id="num_79" playOrder="79">
+          <navLabel>
+            <text>Constructors</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_45"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_80" playOrder="80">
+          <navLabel>
+            <text>Secondary constructors</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_46"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_81" playOrder="81">
+          <navLabel>
+            <text>Members</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_47"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_82" playOrder="82">
+          <navLabel>
+            <text>Inheritance</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_48"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_83" playOrder="83">
+          <navLabel>
+            <text>Overriding</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_49"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_84" playOrder="84">
+          <navLabel>
+            <text>Abstraction</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_50"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_86" playOrder="86">
+          <navLabel>
+            <text>Class companion object</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_52"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_87" playOrder="87">
+          <navLabel>
+            <text>Sealed classes</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_53"/>
+        </navPoint>
+      </navPoint>
+      <navPoint class="chapter" id="num_88" playOrder="88">
+        <navLabel>
+          <text>Class properties</text>
+        </navLabel>
+        <content src="index_split_029.html"/>
+        <navPoint class="chapter" id="num_89" playOrder="89">
+          <navLabel>
+            <text>Properties with late initialization</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_55"/>
+        </navPoint>
+      </navPoint>
+      <navPoint class="chapter" id="num_90" playOrder="90">
+        <navLabel>
+          <text>Interfaces</text>
         </navLabel>
         <content src="index_split_030.html"/>
       </navPoint>
-      <navPoint class="chapter" id="num_79" playOrder="79">
+      <navPoint class="chapter" id="num_91" playOrder="91">
         <navLabel>
-          <text>Singleton</text>
+          <text>Visibility modifiers</text>
         </navLabel>
         <content src="index_split_031.html"/>
       </navPoint>
-      <navPoint class="chapter" id="num_80" playOrder="80">
+      <navPoint class="chapter" id="num_92" playOrder="92">
         <navLabel>
-          <text>Delegating behavior</text>
+          <text>Extensions</text>
         </navLabel>
         <content src="index_split_032.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_81" playOrder="81">
-        <navLabel>
-          <text>Delegating properties</text>
-        </navLabel>
-        <content src="index_split_033.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_82" playOrder="82">
-        <navLabel>
-          <text>Property Delegation Requirements</text>
-        </navLabel>
-        <content src="index_split_034.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_83" playOrder="83">
-        <navLabel>
-          <text>Standard Delegates</text>
-        </navLabel>
-        <content src="index_split_035.html"/>
-        <navPoint class="chapter" id="num_84" playOrder="84">
-          <navLabel>
-            <text>Lazy</text>
-          </navLabel>
-          <content src="index_split_035.html#toc_id_46"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_85" playOrder="85">
-          <navLabel>
-            <text>Observable</text>
-          </navLabel>
-          <content src="index_split_035.html#toc_id_47"/>
-        </navPoint>
-      </navPoint>
-      <navPoint class="chapter" id="num_86" playOrder="86">
-        <navLabel>
-          <text>Storing Properties in a Map</text>
-        </navLabel>
-        <content src="index_split_036.html"/>
-      </navPoint>
-    </navPoint>
-    <navPoint class="chapter" id="num_87" playOrder="87">
-      <navLabel>
-        <text>Functions and Lambdas</text>
-      </navLabel>
-      <content src="index_split_037.html"/>
-      <navPoint class="chapter" id="num_88" playOrder="88">
-        <navLabel>
-          <text>Working with Functions</text>
-        </navLabel>
-        <content src="index_split_038.html"/>
-        <navPoint class="chapter" id="num_89" playOrder="89">
-          <navLabel>
-            <text>Passing Arguments</text>
-          </navLabel>
-          <content src="index_split_038.html#toc_id_51"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_90" playOrder="90">
-          <navLabel>
-            <text>Named Arguments</text>
-          </navLabel>
-          <content src="index_split_038.html#toc_id_52"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_91" playOrder="91">
-          <navLabel>
-            <text>Unit is Void</text>
-          </navLabel>
-          <content src="index_split_038.html#toc_id_53"/>
-        </navPoint>
-        <navPoint class="chapter" id="num_92" playOrder="92">
-          <navLabel>
-            <text>Single-Expression functions</text>
-          </navLabel>
-          <content src="index_split_038.html#toc_id_54"/>
-        </navPoint>
         <navPoint class="chapter" id="num_93" playOrder="93">
           <navLabel>
-            <text>Variable argument functions</text>
+            <text>Extending class properties</text>
           </navLabel>
-          <content src="index_split_038.html#toc_id_55"/>
+          <content src="index_split_032.html#toc_id_59"/>
         </navPoint>
-        <navPoint class="chapter" id="num_94" playOrder="94">
+        <navPoint class="chapter" id="num_95" playOrder="95">
           <navLabel>
-            <text>Local functions</text>
+            <text>Extending companion object</text>
           </navLabel>
-          <content src="index_split_038.html#toc_id_56"/>
+          <content src="index_split_032.html#toc_id_61"/>
         </navPoint>
-      </navPoint>
-      <navPoint class="chapter" id="num_95" playOrder="95">
-        <navLabel>
-          <text>Generic Functions</text>
-        </navLabel>
-        <content src="index_split_039.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_96" playOrder="96">
         <navLabel>
-          <text>Tail-recursive functions</text>
+          <text>Data classes</text>
         </navLabel>
-        <content src="index_split_040.html"/>
+        <content src="index_split_033.html"/>
+        <navPoint class="chapter" id="num_97" playOrder="97">
+          <navLabel>
+            <text>Copying data classes</text>
+          </navLabel>
+          <content src="index_split_033.html#toc_id_63"/>
+        </navPoint>
       </navPoint>
-    </navPoint>
-    <navPoint class="chapter" id="num_97" playOrder="97">
-      <navLabel>
-        <text>Higher-Order Functions and Lambdas</text>
-      </navLabel>
-      <content src="index_split_041.html"/>
       <navPoint class="chapter" id="num_98" playOrder="98">
         <navLabel>
-          <text>Higher-Order Functions</text>
+          <text>Generics</text>
         </navLabel>
-        <content src="index_split_042.html"/>
+        <content src="index_split_034.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_99" playOrder="99">
         <navLabel>
-          <text>Lambda Expressions and Anonymous Functions</text>
+          <text>Generic functions</text>
         </navLabel>
-        <content src="index_split_043.html"/>
+        <content src="index_split_035.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_100" playOrder="100">
         <navLabel>
-          <text>Function Types</text>
+          <text>Java's 'EXTENDS'</text>
         </navLabel>
-        <content src="index_split_044.html"/>
+        <content src="index_split_036.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_101" playOrder="101">
         <navLabel>
-          <text>Lambda Expression Syntax</text>
+          <text>Nested classes</text>
         </navLabel>
-        <content src="index_split_045.html"/>
+        <content src="index_split_037.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_102" playOrder="102">
         <navLabel>
-          <text>Anonymous Functions</text>
+          <text>Inner classes</text>
         </navLabel>
-        <content src="index_split_046.html"/>
+        <content src="index_split_038.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_103" playOrder="103">
         <navLabel>
-          <text>Closures</text>
+          <text>Enumeration</text>
         </navLabel>
-        <content src="index_split_047.html"/>
+        <content src="index_split_039.html"/>
       </navPoint>
-    </navPoint>
-    <navPoint class="chapter" id="num_104" playOrder="104">
-      <navLabel>
-        <text>Inline Functions</text>
-      </navLabel>
-      <content src="index_split_048.html"/>
-    </navPoint>
-    <navPoint class="chapter" id="num_105" playOrder="105">
-      <navLabel>
-        <text>Misc</text>
-      </navLabel>
-      <content src="index_split_049.html"/>
+      <navPoint class="chapter" id="num_104" playOrder="104">
+        <navLabel>
+          <text>Kotlin Object</text>
+        </navLabel>
+        <content src="index_split_040.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_105" playOrder="105">
+        <navLabel>
+          <text>Singleton</text>
+        </navLabel>
+        <content src="index_split_041.html"/>
+      </navPoint>
       <navPoint class="chapter" id="num_106" playOrder="106">
         <navLabel>
-          <text>Destructuring</text>
+          <text>Delegating behavior</text>
         </navLabel>
-        <content src="index_split_050.html"/>
+        <content src="index_split_042.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_107" playOrder="107">
         <navLabel>
-          <text>Ranges</text>
+          <text>Delegating properties</text>
         </navLabel>
-        <content src="index_split_051.html"/>
+        <content src="index_split_043.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_108" playOrder="108">
         <navLabel>
-          <text>Type Checks and Casts</text>
+          <text>Property Delegation Requirements</text>
         </navLabel>
-        <content src="index_split_052.html"/>
+        <content src="index_split_044.html"/>
       </navPoint>
       <navPoint class="chapter" id="num_109" playOrder="109">
         <navLabel>
-          <text>This</text>
+          <text>Standard Delegates</text>
         </navLabel>
-        <content src="index_split_053.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_110" playOrder="110">
-        <navLabel>
-          <text>Equality</text>
-        </navLabel>
-        <content src="index_split_054.html"/>
-      </navPoint>
-      <navPoint class="chapter" id="num_111" playOrder="111">
-        <navLabel>
-          <text>Operator overloading</text>
-        </navLabel>
-        <content src="index_split_055.html"/>
+        <content src="index_split_045.html"/>
+        <navPoint class="chapter" id="num_110" playOrder="110">
+          <navLabel>
+            <text>Lazy</text>
+          </navLabel>
+          <content src="index_split_045.html#toc_id_76"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_111" playOrder="111">
+          <navLabel>
+            <text>Observable</text>
+          </navLabel>
+          <content src="index_split_045.html#toc_id_77"/>
+        </navPoint>
       </navPoint>
       <navPoint class="chapter" id="num_112" playOrder="112">
         <navLabel>
-          <text>Null Safety</text>
+          <text>Storing Properties in a Map</text>
+        </navLabel>
+        <content src="index_split_046.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_113" playOrder="113">
+      <navLabel>
+        <text>Functions and Lambdas</text>
+      </navLabel>
+      <content src="index_split_047.html"/>
+      <navPoint class="chapter" id="num_114" playOrder="114">
+        <navLabel>
+          <text>Working with Functions</text>
+        </navLabel>
+        <content src="index_split_048.html"/>
+        <navPoint class="chapter" id="num_115" playOrder="115">
+          <navLabel>
+            <text>Passing Arguments</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_81"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_116" playOrder="116">
+          <navLabel>
+            <text>Named Arguments</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_82"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_117" playOrder="117">
+          <navLabel>
+            <text>Unit</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_83"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_118" playOrder="118">
+          <navLabel>
+            <text>Single-Expression functions</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_84"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_119" playOrder="119">
+          <navLabel>
+            <text>Variable argument functions</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_85"/>
+        </navPoint>
+        <navPoint class="chapter" id="num_120" playOrder="120">
+          <navLabel>
+            <text>Local functions</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_86"/>
+        </navPoint>
+      </navPoint>
+      <navPoint class="chapter" id="num_121" playOrder="121">
+        <navLabel>
+          <text>Generic Functions</text>
+        </navLabel>
+        <content src="index_split_049.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_122" playOrder="122">
+        <navLabel>
+          <text>Tail-recursive functions</text>
+        </navLabel>
+        <content src="index_split_050.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_123" playOrder="123">
+      <navLabel>
+        <text>Higher-Order Functions and Lambdas</text>
+      </navLabel>
+      <content src="index_split_051.html"/>
+      <navPoint class="chapter" id="num_124" playOrder="124">
+        <navLabel>
+          <text>Higher-Order Functions</text>
+        </navLabel>
+        <content src="index_split_052.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_125" playOrder="125">
+        <navLabel>
+          <text>Lambda Expressions and Anonymous Functions</text>
+        </navLabel>
+        <content src="index_split_053.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_126" playOrder="126">
+        <navLabel>
+          <text>Function Types</text>
+        </navLabel>
+        <content src="index_split_054.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_127" playOrder="127">
+        <navLabel>
+          <text>Lambda Expression Syntax</text>
+        </navLabel>
+        <content src="index_split_055.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_128" playOrder="128">
+        <navLabel>
+          <text>Anonymous Functions</text>
         </navLabel>
         <content src="index_split_056.html"/>
       </navPoint>
-      <navPoint class="chapter" id="num_113" playOrder="113">
+      <navPoint class="chapter" id="num_129" playOrder="129">
         <navLabel>
-          <text>Exceptions</text>
+          <text>Closures</text>
         </navLabel>
         <content src="index_split_057.html"/>
       </navPoint>
     </navPoint>
-    <navPoint class="chapter" id="num_114" playOrder="114">
+    <navPoint class="chapter" id="num_130" playOrder="130">
       <navLabel>
-        <text>Summary</text>
+        <text>Inline Functions</text>
       </navLabel>
       <content src="index_split_058.html"/>
     </navPoint>
-    <navPoint class="chapter" id="num_115" playOrder="115">
+    <navPoint class="chapter" id="num_131" playOrder="131">
+      <navLabel>
+        <text>Misc</text>
+      </navLabel>
+      <content src="index_split_059.html"/>
+      <navPoint class="chapter" id="num_132" playOrder="132">
+        <navLabel>
+          <text>Destructuring</text>
+        </navLabel>
+        <content src="index_split_060.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_133" playOrder="133">
+        <navLabel>
+          <text>Ranges</text>
+        </navLabel>
+        <content src="index_split_061.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_134" playOrder="134">
+        <navLabel>
+          <text>Type Checks and Casts</text>
+        </navLabel>
+        <content src="index_split_062.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_135" playOrder="135">
+        <navLabel>
+          <text>This</text>
+        </navLabel>
+        <content src="index_split_063.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_136" playOrder="136">
+        <navLabel>
+          <text>Equality</text>
+        </navLabel>
+        <content src="index_split_064.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_137" playOrder="137">
+        <navLabel>
+          <text>Operator overloading</text>
+        </navLabel>
+        <content src="index_split_065.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_138" playOrder="138">
+        <navLabel>
+          <text>Exceptions</text>
+        </navLabel>
+        <content src="index_split_066.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_139" playOrder="139">
+      <navLabel>
+        <text>Summary</text>
+      </navLabel>
+      <content src="index_split_067.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_140" playOrder="140">
       <navLabel>
         <text>Literature</text>
       </navLabel>
-      <content src="index_split_059.html"/>
+      <content src="index_split_068.html"/>
     </navPoint>
   </navMap>
 </ncx>
