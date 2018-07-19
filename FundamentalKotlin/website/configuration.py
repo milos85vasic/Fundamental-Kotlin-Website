@@ -66,7 +66,7 @@ configuration = {
                 "anchor": "home",
                 "content": "home",
                 "secondary_content": "formats",
-                "image": "Cover.jpg",
+                "image": "SecEd_Cover.png",
                 "image_alt": "Fundamental Kotlin - 1st Edition"
             },
             {
