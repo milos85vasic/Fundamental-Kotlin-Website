@@ -54,11 +54,11 @@ configuration = {
     },
     "home": {
         "title": "Fundamental Kotlin",
-        "description": "Fundamental Kotlin, 1st Edition.",
+        "description": "Fundamental Kotlin, 2nd Edition.",
         "keywords": "Kotlin, Programming, Programming language, Fundamental, Basics, Book, eBook, Learn",
         "book_author": u'Miloš Vasić',
         "book_title": "Fundamental Kotlin",
-        "book_edition": "1st Edition",
+        "book_edition": "2nd Edition",
         "book_revision": "3",
         "pages": [
             {
@@ -67,7 +67,7 @@ configuration = {
                 "content": "home",
                 "secondary_content": "formats",
                 "image": "SecEd_Cover.png",
-                "image_alt": "Fundamental Kotlin - 1st Edition"
+                "image_alt": "Fundamental Kotlin - 2nd Edition"
             },
             {
                 "title": "Table of Contents",
@@ -96,7 +96,7 @@ configuration = {
                 "anchor": "contact",
                 "content": "contact",
                 "image": "Contact.png",
-                "image_alt": "Fundamental Kotlin - 1st Edition"
+                "image_alt": "Fundamental Kotlin - 2nd Edition"
             },
             # {
             #     "title": "Newsletter",
@@ -106,7 +106,7 @@ configuration = {
                 "title": "About the Author",
                 "content": "author",
                 "image": "Author.png",
-                "image_alt": "Fundamental Kotlin - 1st Edition"
+                "image_alt": "Fundamental Kotlin - 2nd Edition"
             }
         ]
     },
