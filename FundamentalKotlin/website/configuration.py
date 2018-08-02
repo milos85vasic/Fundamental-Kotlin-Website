@@ -49,7 +49,7 @@ configuration = {
             "linkedin": "https://www.linkedin.com/in/milos-vasic-53778682",
             "xing": "https://www.xing.com/profile/Milos_Vasic4",
             "pinterest": "https://www.pinterest.com/milosvasic85/",
-            "goodreads": "https://www.goodreads.com/book/show/32307194-fundamental-kotlin"
+            "goodreads": "https://www.goodreads.com/book/show/41028734-fundamental-kotlin"
         }
     },
     "home": {
