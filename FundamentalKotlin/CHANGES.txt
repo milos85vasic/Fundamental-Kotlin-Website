@@ -28,3 +28,7 @@
 2.0
 ---
 - Second edition homepage
+
+2.1
+---
+- Updated goodreads link for book's 2nd edition
