@@ -31,4 +31,4 @@
 
 2.1
 ---
-- Updated goodreads link for book's 2nd edition
+- Updated links for book's 2nd edition
