@@ -32,3 +32,7 @@
 2.1
 ---
 - Updated links for book's 2nd edition
+
+2.2
+---
+- Updated Scribd link
