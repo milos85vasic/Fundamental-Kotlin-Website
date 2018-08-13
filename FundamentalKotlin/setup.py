@@ -1,9 +1,12 @@
 import os
+import json
 
 from setuptools import setup, find_packages
 
-pyramid_factory_full_version = '2.2'
-pyramid_factory_full_name = 'fundamental-kotlin.com'
+json_config = json.load(open("config.json"))
+
+pyramid_factory_full_version = json_config["pyramid_factory_full_version"]
+pyramid_factory_full_name = json_config["pyramid_factory_full_name"]
 
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'README.txt')) as f:
