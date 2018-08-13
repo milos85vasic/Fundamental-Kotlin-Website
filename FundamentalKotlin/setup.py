@@ -21,9 +21,9 @@ tests_require = [
     'pytest-cov',
 ]
 
-setup(name='FundamentalKotlin',
+setup(name='fundamental-kotlin.com',
       version='1.8',
-      description='FundamentalKotlin',
+      description='fundamental-kotlin.com',
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
           "Programming Language :: Python",
