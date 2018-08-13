@@ -2,6 +2,9 @@ import os
 
 from setuptools import setup, find_packages
 
+pyramid_factory_full_version = '2.2'
+pyramid_factory_full_name = 'fundamental-kotlin.com'
+
 here = os.path.abspath(os.path.dirname(__file__))
 with open(os.path.join(here, 'README.txt')) as f:
     README = f.read()
@@ -21,9 +24,9 @@ tests_require = [
     'pytest-cov',
 ]
 
-setup(name='fundamental-kotlin.com',
-      version='1.8',
-      description='fundamental-kotlin.com',
+setup(name=pyramid_factory_full_name,
+      version=pyramid_factory_full_version,
+      description=pyramid_factory_full_name,
       long_description=README + '\n\n' + CHANGES,
       classifiers=[
           "Programming Language :: Python",
